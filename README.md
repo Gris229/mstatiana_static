@@ -1,0 +1,1 @@
+# mstatiana_static
