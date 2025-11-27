@@ -7,7 +7,7 @@ body{
     background-attachment: fixed;
 }
 
-header h1{
+header{
     text-align: center; 
     color: seashell;
     background-color: rgba(000, 000, 000, 0.5);
@@ -15,7 +15,7 @@ header h1{
     position: fixed;
     width: 100%;
     /*Espacer les lettrs de h1*/
-    letter-spacing: 20px;
+    letter-spacing: 2rem;
     /*Définir une bordure*/
     border: solid 0.5px black;
     /*Arrondir la bordure*/
@@ -23,19 +23,17 @@ header h1{
 
 }
 
-ul li{
-    /*Enlever les puces(points) de la liste*/
-    list-style: none;
-    /*Faire floater les élements de la liste vers la gauche*/ 
-    float: left;
+.grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
 }
 
 .d1,.d2,.d3,.d4,.d5,.d6,.d7,.d8,.d9,.d10,.d11,.d12{
     /*Disposer les div côte à côte*/
     display: inline-block;
     background-size: cover;
-    height: 250px; 
-    width: 250px;
+    height: 18rem; 
+    width: 18rem;
     border-radius: 100%;
     margin: 50px 90px;
     text-align: center;
@@ -46,7 +44,7 @@ ul li{
 span{
     /*Positionner les spans par rapport à leurs élements parent*/
     position: relative;
-    top: 250px;
+    top: 18rem;
     color: snow;
     background-color: rgba(000, 000, 000, 0.5);
     /*Transitions*/
@@ -54,24 +52,12 @@ span{
     transition-duration: 1s;
 }
 
-ul li div:hover span{
+.hover a:hover span{
     position: relative;
-    top: 50px;
+    top: 6rem;
     color: snow;
     background-color: rgba(000, 000, 000, 0.5);
 }
-
-footer{
-    text-align: center;
-    margin-top: 30px;
-}
-
-.contacts{
-    padding-top: 50px;
-    text-align: center;
-    float: right;
-}
-
 
 .d{
 
@@ -80,8 +66,8 @@ footer{
 }
 
 img{
-    height: 50px;
-    width: 50px;
+    height: 6rem;
+    width: 6rem;
 }
 
 p{

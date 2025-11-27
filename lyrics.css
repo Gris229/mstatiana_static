@@ -1,0 +1,22 @@
+body{
+    background-image: url(Pictures/p00.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+header{
+    text-align: center; 
+    color: seashell;
+    background-color: rgba(000, 000, 000, 0.5);
+    /*Fixed pour fixer h1, l'empêcher de défiler avec le contenu*/
+    position: fixed;
+    width: 100%;
+    /*Espacer les lettrs de h1*/
+    letter-spacing: 2rem;
+    /*Définir une bordure*/
+    border: solid 0.5px black;
+    /*Arrondir la bordure*/
+    border-radius: 10px ;
+
+}
